@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="O(N^2)MaxSubsequenceSum1.c">
+    <ClCompile Include="O%28N^2%29MaxSubsequenceSum2.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="O%28N^3%29MaxSubsequenceSum2.c">
+    <ClCompile Include="O%28N^3%29MaxSubsequenceSum1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="O(NlogN)Divide_and_conquer_MaxSubsequenceSum3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="O(N)Online_AlgorutmMaxSubsequenceSum4.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

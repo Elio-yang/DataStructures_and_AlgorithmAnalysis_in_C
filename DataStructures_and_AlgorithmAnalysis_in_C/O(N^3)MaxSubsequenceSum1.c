@@ -31,7 +31,7 @@ int MaxSubsequenceSum(int A[], int N)
 	{
 		for (j = i; j < N; j++)//then right node is j
 		{
-			ThisSum = 0;//before each loop,set maxsum=0
+			ThisSum = 0;//before each loop,set thissum=0
 
 			for (k = i; k <= j; k++)//all subsequence between i and j
 			{
