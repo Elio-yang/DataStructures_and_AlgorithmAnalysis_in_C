@@ -65,3 +65,6 @@ int BinarySearch(int A[], int X, int N)
 	}
 	return NotFound;//NotFound has been defined as -1
 }
+/*
+Algorithm Analysis:O(logN)
+*/
