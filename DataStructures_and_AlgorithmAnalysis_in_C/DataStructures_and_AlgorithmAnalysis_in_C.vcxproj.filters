@@ -30,5 +30,11 @@
     <ClCompile Include="BinarySearch.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="EuclidAlgorithm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pow_fast .c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
