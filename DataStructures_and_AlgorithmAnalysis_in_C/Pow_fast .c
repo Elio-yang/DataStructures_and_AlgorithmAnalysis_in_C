@@ -10,7 +10,7 @@ int main()
 		{
 			n -= 1; count++;
 		}
-		else
+		else//Å¼Êý 
 		{
 			n /= 2; count++;
 		}

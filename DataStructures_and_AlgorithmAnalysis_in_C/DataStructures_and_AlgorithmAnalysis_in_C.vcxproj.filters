@@ -36,5 +36,13 @@
     <ClCompile Include="Pow_fast .c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Posibility_relativelyPrimePairs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
