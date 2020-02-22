@@ -7,15 +7,15 @@ struct Node
 struct Node*creatList()
 {
 	struct Node*headNode = (struct Node*)malloc(sizeof(struct Node));
-	//headNode ³ÉÎªÁË½á¹¹Ìå±äÁ¿
-	//±äÁ¿Ê¹ÓÃÇ°±»³õÊ¼»¯
+	//headNode ï¿½ï¿½Îªï¿½Ë½á¹¹ï¿½ï¿½ï¿½ï¿½ï¿½
+	//ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½
 	headNode->data = 1;
 	headNode->next = NULL;
 	return headNode;
 }
 struct Node*creatNode(int data)
 {
-	//´´½¨½Úµã
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½
 	struct Node*newNode = (struct Node*)malloc(sizeof(struct Node));
 	newNode->data = data;
 	newNode->next = NULL;
@@ -39,30 +39,4 @@ void insertNodeByHead(struct Node*headNode, int data)
 }
 
 
-int main()
-{
-	/*struct Node Node1 = { 1,NULL };
-	struct Node Node2 = { 2,NULL };
-	struct Node Node3 = { 3,NULL };
-
-	Node1.next = &Node2;
-	Node2.next = &Node3;//½á¹¹Ìå±äÁ¿Í¨¹ı½á¹¹ÌåÖ¸ÕëÁ¬½Ó
-	system("pause");//¾²Ì¬µÄÁ´±í
-	*/
-	/*
-	1.´´½¨Á´±í
-	2.´´½¨½Úµã
-	3.²åÈë½Úµã
-	4.É¾³ı½Úµã
-	5.´òÓ¡Á´±í
-	*/
-	
-	struct Node*list = creatList();
-	insertNodeByHead(list, 1);
-	insertNodeByHead(list, 2);
-	insertNodeByHead(list, 3);
-
-	printList(list);
-
-	return 0;
-}
+i
