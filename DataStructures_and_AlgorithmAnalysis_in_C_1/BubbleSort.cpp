@@ -13,7 +13,7 @@ int main ()
     for(int i=0;i<n;i++)
         scanf("%d",&a[i]);
     BubbleSort(a,n);
-    for(int i=0;i<10;i++)
+    for(int i=0;i<n;i++)
         printf("%5d",a[i]); 
     printf("\n");
     system("pause");
