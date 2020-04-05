@@ -54,7 +54,6 @@ int main(){
         printf("Movie:%s \nRating:%d\n",current->title,current->rating);
         current=current->next;//next pt the next node
     }
-    current=head;//back to head
     while(head!=NULL){
         current=head;
         head=current->next;//the next will be the head
