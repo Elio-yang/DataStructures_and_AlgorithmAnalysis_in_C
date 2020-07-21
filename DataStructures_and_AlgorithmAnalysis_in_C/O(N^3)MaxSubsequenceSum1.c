@@ -18,7 +18,6 @@ int main()
 		{
 			scanf("%d", &a[i]);
 		}
-
 		printf("%d", MaxSubsequenceSum(a, N));   
 
 		return 0;

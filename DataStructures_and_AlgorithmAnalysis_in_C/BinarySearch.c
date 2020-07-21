@@ -20,7 +20,6 @@ int main()
 		scanf("%d", &A[k]);
 	}
 	//get the sorted set
-
 	printf("The array you entered is:\n");
 	printf("A[%d]=[",N);
 	for (k = 0; k <= N - 1; k++)
@@ -29,11 +28,9 @@ int main()
 	}
 	printf("]\n");
 	//print the sorted set
-
 	printf("Enter the number you want to find:\n");
 	scanf("%d", &X);
 	//input the number X you want to find
-
 	printf("%d", BinarySearch(A, X, N));
 	//using binarysearch
 	return 0;

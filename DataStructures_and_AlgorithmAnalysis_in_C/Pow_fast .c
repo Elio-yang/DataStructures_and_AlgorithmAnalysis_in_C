@@ -15,7 +15,6 @@ int main()
 			n /= 2; count++;
 		}
 	}
-
 	printf("%d\n", count);
 
 	return 0;
