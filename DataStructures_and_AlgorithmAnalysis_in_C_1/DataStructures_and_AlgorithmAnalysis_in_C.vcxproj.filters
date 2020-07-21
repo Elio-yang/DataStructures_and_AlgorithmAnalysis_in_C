@@ -39,9 +39,6 @@
     <ClCompile Include="Posibility_relativelyPrimePairs.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="linked_list_1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EA.h">

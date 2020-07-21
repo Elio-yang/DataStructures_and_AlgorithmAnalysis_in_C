@@ -9,6 +9,7 @@ int main()
 	scanf("%lld", &N);
 	for (i = 1; i <= N; i++)
 	{
+
 		for (j = i + 1; j <= N; j++)
 		{
 			Tot++;

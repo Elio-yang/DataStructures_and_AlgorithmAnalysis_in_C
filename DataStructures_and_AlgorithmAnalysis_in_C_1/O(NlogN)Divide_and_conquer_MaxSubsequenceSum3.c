@@ -12,7 +12,6 @@ int main()
 	{
 		scanf("%d", &a[i]);
 	}
-
 	printf("%d", MaxSubsequence(a, N));
 
 	return 0;

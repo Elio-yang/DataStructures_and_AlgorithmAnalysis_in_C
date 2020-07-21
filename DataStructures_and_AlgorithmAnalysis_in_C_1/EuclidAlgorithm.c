@@ -5,7 +5,6 @@
 最大公约数（Greatest Common Divisor）缩写为GCD。
 gcd(a,b) = gcd(b,a mod b) (不妨设a>b 且r=a mod b ,r不为0)
 a=nb+r
-
 */
 #include<stdio.h>
 int main()
