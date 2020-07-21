@@ -20,7 +20,7 @@ void treeDestory(Node *node);
 int main()
 {
     int i = 0;
-    Tree *tree = (Node *)malloc(sizeof(Node));
+    Tree *tree =(Tree*)malloc(sizeof(Node));
 	tree->root = NULL;
     int n;
     printf("Total Input N:\n");

@@ -10,7 +10,6 @@ typedef struct film
     struct film *next;
 } FILM;
 char *s_gets(char *st, int n);
-
 int main()
 {
     FILM *head = NULL;
